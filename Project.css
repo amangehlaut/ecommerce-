@@ -1,0 +1,164 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: darkgoldenrod;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+h1:hover {
+  transform: scale(1.1);
+  color: darkgreen;
+}
+
+nav a:hover {
+  transform: scale(1.1);
+  color: white;
+}
+
+nav {
+  float: left;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.banner {
+  height: 400px;
+  background-image: url("/img/Hightop.jpg");
+  background-size: auto;
+  background-position: top;
+}
+
+.featured-products,
+.shop-by-category,
+.about-us {
+  padding: 20px;
+}
+
+.featured-products h2,
+.shop-by-category h2,
+.about-us h2 {
+  margin-bottom: 10px;
+}
+
+.one {
+  height: 300px;
+  width: 300px;
+  border: 2px solid black;
+  display: inline-block;
+
+}
+
+.category {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#one {
+  background-image: url("https://5.imimg.com/data5/SELLER/Default/2021/7/VK/KK/RC/8852934/-mg-1048.JPG");
+  background-size: contain;
+}
+
+#two {
+  background-image: url("https://assets.ajio.com/medias/sys_master/root/20230623/Ai6Q/6494c8bc42f9e729d77dc785/-288Wx360H-464437131-grey-MODEL.jpg");
+  background-size: auto;
+}
+
+#three {
+  background-image: url("https://rukminim2.flixcart.com/image/850/1000/xif0q/shoe/l/u/c/10-8050-black-red-waan-black-red-original-imag5psezyhhwwks-bb.jpeg?q=90&crop=false");
+  background-size: contain;
+}
+
+#seven {
+  background-image: url("https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1708668433_3948163.jpg?w=480&dpr=1.5");
+  background-size: cover;
+}
+
+#four {
+  background-image: url("https://www.jiomart.com/images/product/original/rvbvzxi9m3/d-shoes-men-s-stylish-trendy-mesh-lace-ups-converse-style-sneakers-white-product-images-rvbvzxi9m3-0-202303260354.jpg?im=Resize=(1000,1000)");
+  background-size: contain;
+}
+
+#five {
+  background-image: url("https://baccabucci.com/cdn/shop/products/MG_8831_6983b4ff-5d28-4d59-a03e-f55bce226ad7.jpg?v=1635422651");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#six {
+  background-image: url("https://5.imimg.com/data5/ANDROID/Default/2021/2/GP/WR/CY/123847091/product-jpeg-500x500.jpg");
+  background-size: contain;
+}
+
+#eight {
+  background-image: url("https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1711641966_1284271.jpg?format=webp&w=480&dpr=1.5");
+  background-size: cover;
+}
+
+#nine {
+  background-image: url("https://img.ltwebstatic.com/images3_pi/2021/12/15/16395363515423d6944f5b2e0c5c4104a11c9aec7f_thumbnail_720x.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#ten {
+  background-image: url("https://5.imimg.com/data5/ANDROID/Default/2022/4/DY/SJ/FW/150968927/product-jpeg.jpeg");
+  background-size: cover;
+}
+
+#eleven {
+  background-image: url("https://images-cdn.ubuy.co.in/639c87c13e85cd2b8023d31a-leader-show-men-s-high-quality-fashion.jpg");
+  background-size: contain;
+}
+
+#tvelve {
+  background-image: url("https://www.jiomart.com/images/product/original/rvp3wztq23/zixer-high-top-ankle-sneaker-shoes-for-boys-riding-trekking-cut-stylish-army-long-high-tops-for-men-green-product-images-rvp3wztq23-4-202312312019.jpg?im=Resize=(500,630)");
+  background-size: cover;
+}
+
+ul {
+  list-style-type: none;
+}
+
+footer {
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 10px;
+}
+
+.foot-panel1 {
+  color: white;
+  height: 49px;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+}
+
+.about-us {
+  display: inline-block;
+}
